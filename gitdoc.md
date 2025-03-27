@@ -42,5 +42,4 @@ git push -u REMOTENAME main
 
 ## Deploy from GitHub
 - [Deploy WordPress to WP Engine](https://github.com/marketplace/actions/deploy-wordpress-to-wp-engine)
-- [GitHub Action General Info](https://app.getguru.com/card/idEMMXXT/Github-Action-General-Info)
 
