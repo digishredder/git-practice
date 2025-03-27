@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Workflow and Commands</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #0073e6;
+        }
+        h2 {
+            color: #555;
+        }
+        pre {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        ul {
+            list-style-type: square;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Git Workflow and Commands</h1>
+    
+    <h2>Helpful Links</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com/git/git_getstarted.asp?remote=github" target="_blank">W3 Schools Git Tutorial</a></li>
+        <li><a href="https://ndpsoftware.com/git-cheatsheet.html#loc=local_repo" target="_blank">Git Workflow Visualization</a></li>
+    </ul>
+
+    <h2>Git Commands</h2>
+    <pre>
+# Git Command List
+
+git log
+
+git config --global user.name "username"
+
+git config --global user.email "your@email.com"
+
+git config --global init.defaultBranch main
+
+git init
+    (Command will produce a .git directory, which contains metadata Git created to track changes to files and folders within that directory. 
+    Git now knows it should track the directory you initialized it on, treating it as a local Git repository.)
+
+git status
+
+git add FILENAME
+
+git commit -m "<your commit message>"
+
+git remote -v
+
+git remote add NAME URL
+    (NAME typically is called 'origin')
+    (Make sure to use SSH URL, not the HTTPS one)
+
+git push -u REMOTENAME main
+    </pre>
+
+    <h2>Git SFPT Methods</h2>
+    <ul>
+        <li>Deploybot</li>
+        <li>Codeship</li>
+        <li>Beanstalk</li>
+    </ul>
+
+    <h2>Deploy from GitHub</h2>
+    <ul>
+        <li><a href="https://github.com/marketplace/actions/deploy-wordpress-to-wp-engine" target="_blank">Deploy WordPress to WP Engine</a></li>
+    </ul>
+
+</body>
+</html>
+
